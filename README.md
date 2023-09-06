@@ -3,6 +3,10 @@
 
 ## Installation
 
+### Prerequisites
+
+Install [Node.JS](https://nodejs.org/en) version => 18
+
 1. Download the Zip or clone the repository
 ```
 git clone https://github.com/jthedevio/fivem-vue-boilerplate.git
@@ -11,9 +15,11 @@ git clone https://github.com/jthedevio/fivem-vue-boilerplate.git
 
 3. Open your ``server.cfg`` and register the resource by placing ``ensure fivem-vue-boilerplate`` and saving the file
 
-4. Connect to your server
+4. Open the cmd (Command Prompt) and go to the following location of the resource: ``fivem-vue-boilerplate\nui\vue``, and then type ``npm run build``
 
-5. Type the command ``/nui-display``
+5. Connect to your FiveM server
+
+6. Type the command ``/nui-display``
 
 ### :tada: You rock!
 
@@ -21,11 +27,6 @@ You have now sucessfully installed the FiveM Vue Boilerplate within your FiveM S
 
 ## Making changes
 
-### Prerequisites
-
-Install [Node.JS](https://nodejs.org/en) version => 18
-
-### Development steps
 Once you are ready to make your own changes, follow these steps:
 
 1. Open the project in your favorite code editor (I like [Visual Studio Code](https://code.visualstudio.com/))
